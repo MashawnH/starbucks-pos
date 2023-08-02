@@ -1,0 +1,24 @@
+{"balance":20,"cardCode":"510","cardNumber":"742393107","activated":false,"status":"New Card"}
+New Card: 742393107[510] Balance: 20.0
+Status: 200 
+{"balance":20,"cardCode":"510","cardNumber":"742393107","activated":true,"status":"New Card"}
+============================================
+--------- D E V I C E  S T A T E  ----------
+============================================
+Pin Option    = 4
+Stored Pin    = 1234
+Authenticated = false
+Orientation   = PORTRAIT
+API URL       = http://localhost:8080
+API KEY       = 2742a237475c4703841a2bf906531eb0
+API Register  = 5012349
+============================================
+Screen: starbucks.Passcode
+Screen: starbucks.Spacer
+Screen: starbucks.KeyPad
+Value: [Ljava.lang.String;@e15b7e8
+Exception in thread "main" java.lang.NumberFormatException: For input string: "5)touch(2"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.base/java.lang.Integer.parseInt(Integer.java:652)
+	at java.base/java.lang.Integer.parseInt(Integer.java:770)
+	at starbucks.Main.main(Main.java:52)
